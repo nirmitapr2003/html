@@ -1,12 +1,32 @@
-h1{color:blue;
-border:2px solid Tomato;
-background-color: red}
-img{height:100px;
-	width:100px;}
-	body {
+h1{
+	color:blue;
+	border:5px solid Tomato;
+	border-style: dotted;
+	background-color: black;
+}
+img{
+	height:100px;
+	width:100px;
+}
+body {
   background-image: url("download.jpg");
    background-repeat: no-repeat;
    background-size: cover;
-   ul{list-style-type: square;}
-   ol{list-style-type: lower-roman;}
+}
+ul{
+	list-style-type: square;
+}
+ol{
+	list-style-type: lower-roman;
+}
+table,th,td{
+	border:3px solid Tomato;
+	border-collapse: collapse;
+	padding: 10px;
+	text-align: center;
+
+}
+table{
+	height: 100%;
+	width: 50%;
 }
